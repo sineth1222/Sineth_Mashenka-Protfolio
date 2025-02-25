@@ -1,4 +1,6 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Sineth_Mashenka-Protfolio
+
+Hello I'm Sineth Mashenka. I excel at crafting elegant digital experiences and I am proficient in various programming languages and technologies.
 
 ## Getting Started
 
