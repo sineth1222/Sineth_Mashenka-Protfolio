@@ -1,6 +1,5 @@
-import { Icon } from "lucide-react";
 import Link from "next/link"
-import { FaGithub, FaLinkedin, FaYoutube, FaTwitter, FaFacebook } from "react-icons/fa"
+import { FaGithub, FaLinkedin, FaTwitter, FaFacebook } from "react-icons/fa"
 
 
 const social = [

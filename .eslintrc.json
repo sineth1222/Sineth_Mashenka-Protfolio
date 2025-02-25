@@ -1,4 +1,4 @@
-/*{
+{
     "extends": "next/core-web-vitals",
     "rules": {
         "react/no-unescaped-entities": "off",
@@ -7,4 +7,4 @@
         "allowTemplateLiterals": 0,
         "no-useless-escape": 0
     }
-}*/
+}
