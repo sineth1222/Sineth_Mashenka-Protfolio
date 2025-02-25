@@ -17,7 +17,7 @@ const projects = [
     category: "frontend",
     title: "project 1",
     description: "Discover know more about our project and services by visiting our Doc Plant Website. we will provide a solution for your disease plants.",
-    stack: [{ name: "React.js"}, { name: "Tailwind.css"}, { name: "Javascript"}],
+    stack: [{ name: "React.js"}, { name: "Tailwind.css"}],
     image: '/assets/work/thumbb1.png',
     live: "https://doc-plant-website.vercel.app/",
     github: "https://github.com/sineth1222/Doc_Plant_Website",
