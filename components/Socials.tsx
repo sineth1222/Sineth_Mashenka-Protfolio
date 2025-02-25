@@ -10,8 +10,8 @@ const social = [
 ];
 
 interface Pagesocials {
-    containerStyles: any;
-    iconStyles: any;
+    containerStyles: string;
+    iconStyles: string;
 }
 
 const Socials: React.FC<Pagesocials> = ({containerStyles, iconStyles}) => {
