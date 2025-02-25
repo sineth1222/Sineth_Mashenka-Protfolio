@@ -64,10 +64,14 @@ const projects = [
   },
 ];
 
+interface SwiperEvent {
+  activeIndex: number;
+}
+
 const Work = () => {
   const [project, setProject] = useState(projects[0]);
 
-  const handleSlideChange = (swiper: { activeIndex: any; }) => {
+  const handleSlideChange = (swiper: SwiperEvent) => {
     const currentIndex = swiper.activeIndex;
     setProject(projects[currentIndex])
   }
