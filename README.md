@@ -1,8 +1,25 @@
-# Sineth_Mashenka-Protfolio
+# 🚀 Excited to share my personal portfolio website! 🌐
 
-Hello I'm Sineth Mashenka. I excel at crafting elegant digital experiences and I am proficient in various programming languages and technologies.
 
+## Check it out 👉 www.sinethmashenka.shop
 ## Vercel Link - https://sinethmashenka-protfolio--beta.vercel.app/
+
+This is more than just a website—it's a reflection of my journey, skills, and the work I’m passionate about. From UI/UX design to web development and everything in between, I’ve put it all in one place.
+
+🧠 What you'll find:
+
+My latest projects & case studies 💻
+
+Tools & technologies I work with ⚙️
+
+A bit about who I am and what drives me 🌟
+
+Easy ways to contact & collaborate 🤝
+
+Whether you're a fellow designer/developer, a recruiter, or someone looking for a creative partner—I'd love to hear your thoughts!
+
+📩 Let’s connect, collaborate, and create.
+
 
 ![Screenshot (476)](https://github.com/user-attachments/assets/cc15b30e-e735-499b-a6be-5efdb34810f9)
 
