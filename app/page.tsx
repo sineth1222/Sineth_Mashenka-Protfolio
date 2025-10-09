@@ -21,7 +21,7 @@ const Home = () => {
               <a href="/assets/Sineth Mashenka CV.pdf">
                 <Button variant="outline" size="lg" className="uppercase flex items-center gap-2">
                   <span>Download Cv</span>
-                  <FiDownload href="/assets/Sineth Mashenka CV.pdf" className="text-xl" />
+                  <FiDownload href="/assets/G.B.S.Badanage.pdf" className="text-xl" />
                 </Button>
               </a>
               
