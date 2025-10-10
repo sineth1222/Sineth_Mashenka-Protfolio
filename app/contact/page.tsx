@@ -180,7 +180,7 @@ const Contact = () => {
       } else {
         alert("Failed to send your message. Please try again.");
       }
-    } catch (error) {
+    } catch {
       alert("An error occurred. Please try again later.");
     }
   };

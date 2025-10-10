@@ -38,6 +38,7 @@ export async function POST(request: Request) {
         Dear ${firstname} ${lastname},
 
         Thank you for reaching out! I have received your message and will get back to you soon. 
+        
         Here are the details you submitted:
         
         Service: ${service}
