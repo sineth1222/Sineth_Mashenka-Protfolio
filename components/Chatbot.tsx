@@ -7,7 +7,7 @@ import { ScrollArea } from "@/components/ui/scroll-area";
 import { motion } from "framer-motion";
 import { FaComment, FaTimes } from "react-icons/fa";
 import { Avatar, AvatarFallback } from "@/components/ui/avatar";
-import Image from 'next/image';
+//import Image from 'next/image';
 
 // Define portfolio data (from your previous files)
 const about = {
@@ -100,6 +100,9 @@ const generateResponse = (userMessage: string): string => {
 
   if (lowerMessage.includes("name") || lowerMessage.includes("who are you")) {
     return `Hi! I'm Sineth Mashenka, a passionate Software Engineer. Nice to chat with you! 😊`;
+  }
+  if (lowerMessage.includes("about") || lowerMessage.includes("introduced")) {
+    return `Hi! I'm ${about.info[0].fieldValue}, a passionate Software Engineer. ${about.description} Nice to chat with you! 😊`;
   }
   if (lowerMessage.includes("what do you do") || lowerMessage.includes("profession") || lowerMessage.includes("job")) {
     return `I'm a Software Engineer specializing in web development, UI/UX design, mobile apps, and more. I excel at crafting elegant digital experiences. Want to know about specific services or projects? 🚀`;
