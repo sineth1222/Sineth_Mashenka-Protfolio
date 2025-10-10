@@ -101,7 +101,7 @@ const generateResponse = (userMessage: string): string => {
   if (lowerMessage.includes("name") || lowerMessage.includes("who are you")) {
     return `Hi! I'm Sineth Mashenka, a passionate Software Engineer. Nice to chat with you! 😊`;
   }
-  if (lowerMessage.includes("about") || lowerMessage.includes("introduced")) {
+  if (lowerMessage.includes("about yor self") || lowerMessage.includes("introduced")) {
     return `Hi! I'm ${about.info[0].fieldValue}, a passionate Software Engineer. ${about.description} Nice to chat with you! 😊`;
   }
   if (lowerMessage.includes("what do you do") || lowerMessage.includes("profession") || lowerMessage.includes("job")) {
