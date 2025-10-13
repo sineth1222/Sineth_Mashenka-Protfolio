@@ -26,7 +26,7 @@ const about = {
     },
     {
       fieldName: "Email",
-      fieldValue: "sineth mashenka1222@gmail.com",
+      fieldValue: "sinethmashenka1222@gmail.com",
     },
     {
       fieldName: "Nationality",
@@ -266,7 +266,7 @@ const Resume = () => {
                         {about.info.map((item, index) => {
                           return (
                             <li key={index}
-                            className="flex items-center justify-center xl:justify-start gap-4">
+                            className="flex flex-wrap items-center justify-center xl:justify-start gap-4">
                               <span className="text-white/60">{item.fieldName}</span>
                               <span className="text-xl">{item.fieldValue}</span>
                             </li>

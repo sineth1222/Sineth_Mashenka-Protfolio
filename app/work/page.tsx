@@ -115,7 +115,7 @@ const Work = () => {
               <div className="text-8xl leading-none font-extrabold text-transparent text-outline">{project.num}</div>
               <h2 className="text-[42px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500 capitalize">{project.category} project</h2>
               <p className="text-white/60">{project.description}</p>
-              <ul className="flex gap-4">{project.stack.map((item, index) => {
+              <ul className="flex flex-wrap gap-4">{project.stack.map((item, index) => {
                 return <li key={index} className="text-xl text-accent">{item.name}
                 {/* remove last coma */}
                 {index !== project.stack.length - 1 && ","}</li>;
