@@ -24,6 +24,16 @@ const projects = [
   },
   {
     num: "02",
+    category: "MERN Stack",
+    title: "PRADHA Rental",
+    description: "pradha rental website is a modern, user-friendly car rental booking platform built using React.js. It focuses on providing customers with a seamless experience to view car details and make quick, secure online reservations.",
+    stack: [{ name: "React.js"}, { name: "Express.js"}, { name: "MongoDB"}, { name: "Node.js"}, { name: "Tailwind.css"}],
+    image: '/assets/work/thumbb13.jpeg',
+    live: "https://pra-dha-rental-service.vercel.app/",
+    github: "https://github.com/sineth1222/PraDha_Rental_service",
+  },
+  {
+    num: "03",
     category: "Full Stack",
     title: "News Paper",
     description: "A dynamic Sri Lankan news platform where admins easily add and manage articles, users enjoy ad-free news browsing, and an AI-powered chatbot delivers personalized news searches in English, Sinhala, and Tamil. Stay informed with fresh content from the last 7 days, accessible anytime, anywhere.",
@@ -33,7 +43,7 @@ const projects = [
     github: "https://github.com/sineth1222/newspaper",
   },
   {
-    num: "03",
+    num: "04",
     category: "Full Stack",
     title: "PraDha Family Mart Billing POS System",
     description: "PraDha Family Mart Billing POS System,  This comprehensive solution streamlines retail operations with 5 key modules: POS, Inventory, Customer, Reports, and Dashboard. From seamless billing and stock management to real-time low-stock alerts (displayed in red when items fall below 10!), this system empowers businesses with efficiency and insights.",
@@ -43,7 +53,7 @@ const projects = [
     github: "https://github.com/sineth1222/",
   },
   {
-    num: "04",
+    num: "05",
     category: "frontend",
     title: "project 1",
     description: "Discover know more about our project and services by visiting our Doc Plant Website. we will provide a solution for your disease plants.",
@@ -53,7 +63,7 @@ const projects = [
     github: "https://github.com/sineth1222/Doc_Plant_Website",
   },
   {
-    num: "05",
+    num: "06",
     category: "frontend",
     title: "project 2",
     description: "Discover know more about our project and services by visiting our Sriseth Website. we will provide a astrology for your busy life style.",
@@ -63,7 +73,7 @@ const projects = [
     github: "https://github.com/sineth1222/sriseth_website",
   },
   {
-    num: "06",
+    num: "07",
     category: "fullstack",
     title: "project 3",
     description: "Discover know more about our project and services by visiting our Student Management System.",
@@ -73,7 +83,7 @@ const projects = [
     github: "https://github.com/sineth1222/Student_Management_System_Laravel",
   },
   {
-    num: "07",
+    num: "08",
     category: "fullstack",
     title: "project 4",
     description: "Discover know more about our project and services by visiting our Billing System.",
@@ -83,7 +93,7 @@ const projects = [
     github: "https://github.com/sineth1222/Billing-System",
   },
   {
-    num: "08",
+    num: "09",
     category: "fullstack",
     title: "project 5",
     description: "MCQ Master is a relatable system for both student and teachers.Student can choose a subject they want and ask mcq questions related to that subject, the answer are also provided and techers can add questions related to the subject to this application.",
@@ -155,12 +165,12 @@ const Work = () => {
             <Swiper spaceBetween={30} slidesPerView={1} className="xl:h-[520px] mb-12" onSlideChange={handleSlideChange}>
               {projects.map((project, index)=> {
                 return <SwiperSlide key={index} className="w-full">
-                  <div className="h-[460px] relative group flex justify-center items-center bg-pink-50/20">
+                  <div className="h-[280px] sm:h-[460px] relative group flex justify-center items-center bg-pink-50/20">
                     {/* overlay */}
                     <div className="absolute top-0 bottom-0 w-full h-full bg-black/10 z-10"></div>
                     {/* image */}
                     <div className="relative w-full h-full">
-                      <Image src={project.image} alt={""} fill className="object-cover"/>
+                      <Image src={project.image} alt={""} fill className="object-contain"/>
                     </div>
                   </div>
                 </SwiperSlide>;
