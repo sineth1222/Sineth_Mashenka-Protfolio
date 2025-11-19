@@ -29,7 +29,7 @@ const projects = [
     description: "Welcome to Sagea Fashions Store, your ultimate destination for the latest and smartest fashion trends, we bring you the best in innovation — all in one place.",
     stack: [{ name: "Next.js"}, { name: "JavaScript"}, { name: "Node.js"}, { name: "Tailwind.css"}, { name: "Neondb"}, { name: "ImageKit"}, { name: "Clerk"}, { name: "Stripe"}, { name: "Inngest"}],
     image: '/assets/work/sagea.png',
-    live: "https://smora.vercel.app/",
+    live: "https://sagea.vercel.app/",
     github: "https://github.com/sineth1222/segea---git",
   },
   {
